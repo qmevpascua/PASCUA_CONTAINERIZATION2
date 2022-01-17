@@ -7,7 +7,7 @@
       include_vars:
         file: config.yaml
 
-    - name: Install Docker for Ubuntu
+    - name: Install DockerDependencies for Ubuntu
       include_role:
         name: package_ubuntu
       vars:
